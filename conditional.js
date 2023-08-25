@@ -32,3 +32,18 @@
         greeting = "Good Evening"
     }
     //Good Day
+
+//Your code doesn't always have to include the else and second curly brace block - 
+//the following is also perfectly logical code:
+    let weekday = 3;
+    if (weekday = 3) {
+        notify = "It is wednesday";
+    }
+    alert("It is not wednesday");
+    //It is wednesday
+    //It is not wednesday
+
+//In this case, the second block of code is not controlled by the conditional statement.
+//Meaning the code will always be ran, regardless of whether the condition returns
+//true or false.
+//Be mindful when and where you use else, and where you don't use ELSE;
