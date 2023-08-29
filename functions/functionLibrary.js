@@ -44,5 +44,3 @@ input.addEventListener("change", () => {
     // out a sentence inside the paragraph element that states the square, cube and factorial
     // values of the number. The sentence calls the squared(), cubed(), and factorial()
     // functions to calculate the required values.
-
-
